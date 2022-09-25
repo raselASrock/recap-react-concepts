@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Device from './Components/Device/Device';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Device name='Iphone 14' price= '123456'></Device>
     </div>
   );
 }
